@@ -27,6 +27,15 @@ h2 {
   text-align:center;
 }
 
+a,
+a:hover,
+a:active {
+  text-decoration:none;
+}
+a:visited {
+  color:#222;
+}
+
 /* middle */
 .bit {
   width:49%;
@@ -43,7 +52,6 @@ h2 {
   .bit:hover,
   .bit:active
   {
-    text-decoration:none;
     color:#222; 
   }
   .bit h3,
@@ -81,17 +89,33 @@ h4 {
   line-height:17pt;
 }
 .portfolio-bit img {
+  margin:0px auto;
+  display:block;
   margin-bottom:0;
   margin-top:2rem;
-  width:100%;
+  max-width:100%;
+}
+.smaller {
+  width:80%;
 }
 .caption {
   margin-top:0.5rem;
+  margin-bottom:2rem;
   font-size:90%;
   text-align:center;
   color:#878787;
+  font-style:italic; 
+}
+.hello-bit {
+  margin:0px auto;
+  margin-top:3rem;
+  width:50%;
+}
+  .hello-bit h3 {
+    text-align:center;
+  }
+blockquote {
   font-style:italic;
-
 }
 
 /* end */
@@ -114,5 +138,4 @@ h4 {
   .sm li a,
   .sm li a:active {
     color:#878787;
-    text-decoration:none;
   }
