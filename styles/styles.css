@@ -95,6 +95,11 @@ h4 {
   margin-top:2rem;
   max-width:100%;
 }
+iframe {
+  display:block;
+  margin:0px auto;
+}
+
 .smaller {
   width:80%;
 }
