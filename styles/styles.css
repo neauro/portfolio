@@ -88,6 +88,9 @@ h4 {
 .portfolio-bit p {
   line-height:17pt;
 }
+.portfolio-bit a:link {
+  text-decoration: underline;
+}
 .portfolio-bit img {
   margin:0px auto;
   display:block;
@@ -102,6 +105,9 @@ iframe {
 
 .smaller {
   width:80%;
+}
+.half-size {
+  width:50%;
 }
 .caption {
   margin-top:0.5rem;
